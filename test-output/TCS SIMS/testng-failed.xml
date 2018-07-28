@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TCS SIMS]" parallel="tests">
+  <listeners>
+    <listener class-name="com.tcs.sims.ExtentReportListener.ExtentReporterNG"/>
+    <listener class-name="com.tcs.sims.util.MyTransform"/>
+  </listeners>
+  <test name="TCS SIMS(failed)" parallel="tests">
+    <parameter name="browser" value="FireFox"/>
+    <classes>
+      <class name="com.tcs.sims.testcases.FinancialReportTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="financialReport" invocation-numbers="0 0"/>
+        </methods>
+      </class> <!-- com.tcs.sims.testcases.FinancialReportTest -->
+    </classes>
+  </test> <!-- TCS SIMS(failed) -->
+</suite> <!-- Failed suite [TCS SIMS] -->
