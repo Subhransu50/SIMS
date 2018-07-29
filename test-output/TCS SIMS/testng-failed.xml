@@ -11,7 +11,7 @@
       <class name="com.tcs.sims.testcases.FinancialReportTest">
         <methods>
           <include name="setUp"/>
-          <include name="financialReport" invocation-numbers="0 0"/>
+          <include name="financialReport" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.tcs.sims.testcases.FinancialReportTest -->
     </classes>
