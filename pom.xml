@@ -92,6 +92,13 @@
 </dependency>
 
 
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>htmlunit-driver</artifactId>
+    <version>2.31.0</version>
+</dependency>
+
+
 	</dependencies>
 
 
