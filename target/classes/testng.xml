@@ -1,32 +1,16 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="TCS SIMS" parallel="tests">
+  
+<suite name="TCS SIMS">
 <listeners>
-		<listener class-name="com.tcs.sims.ExtentReportListener.ExtentReporterNG" />
-		<listener class-name="com.tcs.sims.util.MyTransform"></listener>
+		<listener class-name="com.crm.qa.ExtentReportListener.ExtentReporterNG" />
+		<listener class-name="com.crm.qa.util.MyTransform"></listener>
 </listeners>
 
-  <test name="TCS SIMS" >
-   <parameter name="browser"  value="FireFox"/>
+<test name="TCS SIMS" >
     <classes>
-    
-  
-       <class name="com.tcs.sims.testcases.FinancialReportTest"/>
-   
+       
+        <class name="com.tcs.sims.testcases.FinancialReportTest"/>
         
     </classes>
-    
-    
   </test>
-  
-  
-<!--   <test name="TCS SIMS NEW" >
-  <parameter name="browser"  value="FireFox"/>
-    <classes>
-    
-  
-       <class name="com.tcs.sims.testcases.AdminBusinessParameterTest"/>
-   
-        
-    </classes>
-    </test> -->
   </suite>
