@@ -2,11 +2,12 @@
   
 <suite name="TCS SIMS">
 <listeners>
-		<listener class-name="com.crm.qa.ExtentReportListener.ExtentReporterNG" />
-		<listener class-name="com.crm.qa.util.MyTransform"></listener>
+		<listener class-name="com.tcs.sims.ExtentReportListener.ExtentReporterNG" />
+		<listener class-name="com.tcs.sims.util.MyTransform"></listener>
 </listeners>
 
 <test name="TCS SIMS" >
+   <parameter name="browser"  value="FireFox"/>
     <classes>
        
         <class name="com.tcs.sims.testcases.FinancialReportTest"/>

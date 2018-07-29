@@ -3,7 +3,7 @@ package com.tcs.sims.testcases;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+//import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.testng.annotations.Test;
 
 public class HeadlessTesting {
@@ -20,8 +20,8 @@ public class HeadlessTesting {
 	options.addArguments("headless");*/
 	
    //WebDriver driver = new ChromeDriver(options);
-	WebDriver driver=new HtmlUnitDriver();
-	driver.get("https://qa.tcsion.com");
-	System.out.println(driver.getTitle());
+	/*WebDriver driver=new HtmlUnitDriver();
+	driver.get("https://qa.tcsion.com"); uncomment this section
+	System.out.println(driver.getTitle());*/
 }
 }

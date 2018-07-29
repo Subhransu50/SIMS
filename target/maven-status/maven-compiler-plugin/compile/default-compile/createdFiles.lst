@@ -1,0 +1,10 @@
+com\tcs\sims\pages\AdminBusinessParameterPage.class
+com\tcs\sims\pages\FinancialReportPage.class
+com\tcs\sims\util\RetryAnalyzer.class
+com\tcs\sims\util\TestUtil.class
+com\tcs\sims\pages\HomePage.class
+com\tcs\sims\pages\LoginPage.class
+com\tcs\sims\ExtentReportListener\ExtentReporterNG.class
+com\tcs\sims\util\MyTransform.class
+com\tcs\sims\base\TestBase.class
+com\tcs\sims\util\WebEventListener.class

@@ -1,0 +1,7 @@
+com\tcs\sims\testcases\AdminBusinessParameterTest.class
+com\tcs\sims\testcases\seleniumgrid.class
+com\tcs\sims\testcases\LoginPageTest.class
+com\tcs\sims\testcases\PhantomJSheadLeassDriver.class
+com\tcs\sims\testcases\FinancialReportTest.class
+com\tcs\sims\testcases\HeadlessTesting.class
+com\tcs\sims\testcases\Time.class

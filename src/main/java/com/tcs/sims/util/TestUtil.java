@@ -63,11 +63,21 @@ public class TestUtil extends LoginPage {
 	}
 
 	public static void takeScreenshotAtEndOfTest() throws IOException {
-		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		//String currentDir = System.getProperty("user.dir");
-
-		//Files.copy(scrFile,new File(currentDir + "/screenshots/"+ System.currentTimeMillis() + ".png"));
+		/*File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		
 		Files.copy(scrFile,new File("/H:/Automation/SIMS/src/screenshots"+ System.currentTimeMillis() + ".png"));
+		
+*/		
+		
+		File scrFile = ((TakesScreenshot) driver)
+				.getScreenshotAs(OutputType.FILE);
+		String currentDir = System.getProperty("user.dir");
+
+		Files.copy(
+				scrFile,
+				new File(currentDir + "/screenshots/"
+						+ System.currentTimeMillis() + ".png"));
+
 	}
 	
 

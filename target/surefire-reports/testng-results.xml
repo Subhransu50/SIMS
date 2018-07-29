@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TCS SIMS" duration-ms="220416" started-at="2018-07-29T16:35:30Z" finished-at="2018-07-29T16:39:11Z">
+    <groups>
+    </groups>
+    <test name="TCS SIMS" duration-ms="220416" started-at="2018-07-29T16:35:30Z" finished-at="2018-07-29T16:39:11Z">
+      <class name="com.tcs.sims.testcases.FinancialReportTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.tcs.sims.testcases.FinancialReportTest@1143ee9]" name="setUp" is-config="true" duration-ms="24255" started-at="2018-07-29T22:05:31Z" finished-at="2018-07-29T22:05:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="financialReport(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.tcs.sims.testcases.FinancialReportTest@1143ee9]" name="financialReport" duration-ms="194992" started-at="2018-07-29T22:05:56Z" data-provider="getTestDataa" finished-at="2018-07-29T22:09:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin.tcssupport@greatlakes.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[beachb@tch]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[prashanth.machika@tcs.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Jul@2018]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- financialReport -->
+      </class> <!-- com.tcs.sims.testcases.FinancialReportTest -->
+    </test> <!-- TCS SIMS -->
+  </suite> <!-- TCS SIMS -->
+</testng-results>
